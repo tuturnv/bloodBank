@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Send | Request</title>
+    <link rel="shortcut icon" type="image/png" href="../assets/favicon.png"/>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <i class="fa fa-ambulance icon"></i>
+            <p id="heading">Donate Blood & Save Lives</p>
+            <form action="" class = "log-in-view">
+                <input class = "upper" type="text" name="username" id="" placeholder="Username">
+                <input class = "upper" type="password" name="password" id="" placeholder="Password">
+                <input type="submit" value="Log-In" class = 'cross'>
+                <button><i class="fa fa-times"></i></button>
+              </form>
+        </nav>
+        <div class="menu">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../don_reg/don_reg.html">Donor Registration</a></li>
+                <li class="curr">Send Request</li>
+                <li><a href="../view_reg/view_reg.html">View Request</a></li>
+                <!-- <li>Camps</li> -->
+                <li id = "log-in">Log In</li>
+                <li><a href = "../contact_us/contact_us.html">Contact us</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <p id = "heading">Blood Stock Request</p>
+        <form action="">
+            <p>Search Blood Stock</p>
+            <div class="fields">
+                <input type="text" name="state" placeholder="State" class="info" required>
+                <input type="text" name="district" placeholder="District" class="info" required>
+                <span></span>
+                <input type="text" name="address" placeholder="Local address" class="info" required>
+                <select name="blood_group" class="info" required>
+                    <option value="">Select Blood Group</option>
+                    <option value="18">AB-Ve</option>
+                    <option value="17">AB+Ve</option>
+                    <option value="12">A-Ve</option>
+                    <option value="11">A+Ve</option>
+                    <option value="14">B-Ve</option>
+                    <option value="13">B+Ve</option>
+                    <option value="23">Oh-VE</option>
+                    <option value="22">Oh+VE</option>
+                    <option value="16">O-Ve</option>
+                    <option value="15">O+Ve</option>
+                    <option value="all">All Blood Groups</option>
+                </select>
+            </div>
+            <button type="submit"> Submit</button>
+        </form>
+        <div class = "tell">
+            <i class="fa fa-calendar"></i>
+            <span>Give details of district, state and blood group to make a request.</span>
+        </div>
+    </main>
+    <footer>
+        &#169; -2023 Project for Web Workshop
+        <p>&#174; - Designed and Developed by 6_8_12_40</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="./script.js">
+    </script>
+</body>
+
+</html>
